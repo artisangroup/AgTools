@@ -28,7 +28,11 @@
 		<AssemblyVersion>1.0.0.1</AssemblyVersion>
 		<FileVersion>1.0.0.1</FileVersion>
 		<AssemblyName>Ax.Quiver</AssemblyName>
-		<ApplicationIcon>resources/circle.ico</ApplicationIcon>
+		<ApplicationIcon>resources\circle.ico</ApplicationIcon>
 		<Version>$(VersionPrefix)</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="resources\circle.ico" />
+  </ItemGroup>
 </Project>
