@@ -3,7 +3,7 @@
 /// <summary>
 /// Global information
 /// </summary>
-public class ArtGlobals
+public class AxGlobals
 {
     /// <summary>
     /// The hello string

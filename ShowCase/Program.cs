@@ -1,4 +1,4 @@
-﻿using Artisan.Quiver;
+﻿using Ax.Quiver.Extensions;
 class Program
 {
     static void Main(string[] args)
@@ -14,7 +14,7 @@ class Program
             if (string.IsNullOrEmpty(input)) break;
             Console.WriteLine($"Input: {input}");
             Console.WriteLine("Begins with uppercase? " +
-                 $"{(input.StartsWithUpper() ? "Yes" : "No")}");
+                 $"{(input.AxStartsWithUpper() ? "Yes" : "No")}");
             Console.WriteLine();
             row += 4;
         } while (true);

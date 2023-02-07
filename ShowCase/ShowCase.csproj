@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Source\Artisan.Quiver.csproj" />
+    <ProjectReference Include="..\Source\Ax.Quiver.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
