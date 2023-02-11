@@ -19,4 +19,15 @@ public static class StringLibrary
         return char.IsUpper(ch);
     }
 
+    /// <summary>
+    /// Performs a simple case insensitive equality comparison 
+    /// </summary>
+    /// <param name="str">The source string for the comparison (cannot be null)</param>
+    /// <param name="str1">The target string for the comparison</param>
+    /// <returns>Returns true for a case-insensitive equality</returns>
+    public static bool AxIsEqual(this string str, string str1)
+    {
+        return str.Equals(str1, StringComparison.OrdinalIgnoreCase);
+    }
+
 }
