@@ -17,7 +17,7 @@
 		<Configurations>Debug;Release</Configurations>
 		<BaseOutputPath>bin\</BaseOutputPath>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<DocumentationFile>xml\Ax.Quiver.xml</DocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Ax.Quiver.xml</DocumentationFile>
 		<RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
 		<SignAssembly>False</SignAssembly>
 		<PackageId>Ax.Quiver</PackageId>
