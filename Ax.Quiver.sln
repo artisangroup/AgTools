@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ax.Quiver", "Source\Ax.Quiver.csproj", "{B980AD40-2326-4FEF-AAFD-F38A98F9E8FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ag.Quiver", "Source\Ag.Quiver.csproj", "{B980AD40-2326-4FEF-AAFD-F38A98F9E8FD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowCase", "ShowCase\ShowCase.csproj", "{3ADD5DF9-0333-40BD-B0EB-39DEF24B5839}"
 EndProject
