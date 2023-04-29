@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowCase", "ShowCase\ShowCase.csproj", "{3ADD5DF9-0333-40BD-B0EB-39DEF24B5839}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ag.Quiver", "Source\Ag.Quiver.csproj", "{15C151D5-9C2C-49BF-B9EF-B1F4856722D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgQuiver", "Source\AgQuiver.csproj", "{15C151D5-9C2C-49BF-B9EF-B1F4856722D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

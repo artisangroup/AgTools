@@ -12,11 +12,17 @@ public static class StringLibrary
     /// <returns>returns true if the first character is uppercase</returns>
     public static bool AgStartsWithUpper(this string? str)
     {
-        if (string.IsNullOrWhiteSpace(str))
-            return false;
+        return (string.IsNullOrEmpty(str)) ? false : char.IsUpper(str[0]);
+    }
 
-        char ch = str[0];
-        return char.IsUpper(ch);
+    /// <summary>
+    /// Checks to see if the first letter is an lower case character
+    /// </summary>
+    /// <param name="str">the string to check</param>
+    /// <returns>returns true if the first character is lowercase</returns>
+    public static bool AgStartsWithLower(this string? str)
+    {
+        return (string.IsNullOrEmpty(str)) ? false : char.IsLower(str[0]);
     }
 
     /// <summary>
@@ -27,7 +33,7 @@ public static class StringLibrary
     /// <returns>Returns true for a case-insensitive equality</returns>
     public static bool AgIsEqual(this string str, string str1)
     {
-        return str.Equals(str1, StringComparison.OrdinalIgnoreCase);
+        return (str==null) ? false : str.Equals(str1, StringComparison.OrdinalIgnoreCase);
     }
 
 }
