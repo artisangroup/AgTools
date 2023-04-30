@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -7,7 +6,7 @@
     <RootNamespace>Ag.Tools</RootNamespace>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Description>A Quiver of Tools</Description>
-		<VersionPrefix>1.0.0.1</VersionPrefix>
+		<VersionPrefix>1.0.0.17</VersionPrefix>
 		<VersionSuffix>1</VersionSuffix>
 		<Authors>Artisan Group</Authors>
 		<Company>Artisan Group</Company>
@@ -21,18 +20,36 @@
 		<RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
 		<SignAssembly>False</SignAssembly>
 		<PackageId>AgTools</PackageId>
-		<Title>Artisan Group's Quiver of Tools</Title>
+		<Title>Artisan Group Tools</Title>
 		<Copyright>(c) Artisan Group</Copyright>
 		<PackageTags>artisanx; atgi; artisangroup;</PackageTags>
 		<PackageReleaseNotes>Release Notes - Initial build</PackageReleaseNotes>
-		<AssemblyVersion>1.0.0.1</AssemblyVersion>
-		<FileVersion>1.0.0.1</FileVersion>
+		<AssemblyVersion>1.0.0.17</AssemblyVersion><FileVersion>1.0.0.17</FileVersion>
 		<AssemblyName>AgTools</AssemblyName>
 		<ApplicationIcon>resources\circle.ico</ApplicationIcon>
 		<Version>$(VersionPrefix)</Version>
+		<PackageIcon>resources\circle.png</PackageIcon>
+		<PackageReadmeFile>readm.md</PackageReadmeFile>
   </PropertyGroup>
-
   <ItemGroup>
     <Content Include="resources\circle.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="readm.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="resources\circle.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
+
+
+
+
+
+
+
+
