@@ -30,6 +30,7 @@
 		<Version>$(VersionPrefix)</Version>
 		<PackageIcon>resources\circle.png</PackageIcon>
 		<PackageReadmeFile>readm.md</PackageReadmeFile>
+
   </PropertyGroup>
   <ItemGroup>
     <Content Include="resources\circle.ico" />
