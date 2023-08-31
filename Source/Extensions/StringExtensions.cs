@@ -1,3 +1,7 @@
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+
 namespace Ag.Tools.Extensions;
 
 /// <summary>
@@ -5,6 +9,38 @@ namespace Ag.Tools.Extensions;
 /// </summary>
 public static class StringExtensions
 {
+    /// <summary>
+    /// Loads a string resource from this assembly
+    /// </summary>
+    /// <returns>the loaded resource if successful or the original string, or string.Empty</returns>
+    public static Assembly? _ra = null;
+    public static ResourceManager? _rm = null;
+    public static string AgLoadString(this string? str, string defaultString = "")
+    {
+        string s1 = $"{str ?? string.Empty}";//make a copy
+        try
+        {
+            if (null == _ra)
+                _ra = Assembly.GetAssembly(Type.GetType("Ag.Tools.AgError"));
+            if ((null != _ra) && (null == _rm))
+                _rm = new ResourceManager($"Ag.Tools.Properties.Resources", _ra ?? null);
+            try
+            {
+                if (null != _rm)
+                    s1 = _rm.GetString(s1);
+            }
+            catch (Exception)
+            {
+            }
+
+            if (string.IsNullOrEmpty(s1) && !string.IsNullOrEmpty(defaultString))
+                s1 = defaultString;
+        }
+        catch
+        {
+        }
+        return s1;
+    }
     /// <summary>
     /// Checks to see if the first letter is an upper case character
     /// </summary>
@@ -33,7 +69,7 @@ public static class StringExtensions
     /// <returns>Returns true for a case-insensitive equality</returns>
     public static bool AgIsEqual(this string str, string str1)
     {
-        return (str==null) ? false : str.Equals(str1, StringComparison.OrdinalIgnoreCase);
+        return (str == null) ? false : str.Equals(str1, StringComparison.OrdinalIgnoreCase);
     }
 
 }
