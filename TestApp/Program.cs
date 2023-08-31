@@ -1,9 +1,16 @@
-﻿using Ag.Tools.Extensions;
+﻿using Ag.Tools;
+using Ag.Tools.Extensions;
 class Program
 {
     static void Main(string[] args)
     {
         int row = 0;
+
+        {
+            AgErrorInfo errorInfo = new AgErrorInfo(AgError.E_OTHER);
+            AgException exc = new AgException(errorInfo);
+            
+        }
 
         do
         {

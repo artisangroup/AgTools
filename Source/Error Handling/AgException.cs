@@ -11,17 +11,11 @@ namespace Ag.Tools
         /// <returns>Returns TRUE if the error code is success</returns>
         public bool IsSuccess() { return ErrorCode == AgError.SUCCESS; }
 
-        public AgException(Exception ex)
+        public AgException(Exception ex) => SetErrorInfo(AgError.E_OTHER);
+        public AgException(int errorCode) => SetErrorInfo(errorCode);
+        public AgException(AgException aex) => SetErrorInfo(aex.ErrorCode);
+        public AgException(AgErrorInfo ex)
         {
-            SetErrorInfo(AgError.E_OTHER);
-        }
-        public AgException(int errorCode)
-        {
-            SetErrorInfo(errorCode);
-        }
-        public AgException(AgException aex)
-        {
-            SetErrorInfo(aex.ErrorCode);
         }
         public AgException SetErrorInfo(int errorCode)
         {

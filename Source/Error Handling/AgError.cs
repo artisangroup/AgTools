@@ -41,11 +41,15 @@ namespace Ag.Tools
         /// string message for the AgError code
         /// </summary>
         public string? ErrorMsg { get; set; }
-        public AgErrorInfo()
+        public AgErrorInfo() => _init(AgError.SUCCESS);
+        public AgErrorInfo(int errorCode, string? errorMsg = null) => _init(errorCode, errorMsg);
+        private void _init(int errorCode, string? errorMsg = null)
         {
-            ErrorCode = AgError.SUCCESS;
-            ErrorMsg = LoadErrorMessage(ErrorCode);
+            ErrorCode = errorCode;
+            ErrorMsg = errorMsg ?? LoadErrorMessage(errorCode);
+
         }
+
         /// <summary>
         /// Loads error message
         /// </summary>
