@@ -27,7 +27,7 @@ public static class StringExtensions
             try
             {
                 if (null != _rm)
-                    s1 = _rm.GetString(s1);
+                    s1 = _rm.GetString(s1) ?? str ?? defaultString;
             }
             catch (Exception)
             {
