@@ -9,6 +9,9 @@ class Program
         {
             AgErrorInfo errorInfo = new AgErrorInfo(AgError.E_OTHER);
             AgException exc = new AgException(errorInfo);
+
+            string s = "HelloWorld".AgLoadString("defauuullltttt");
+            Console.WriteLine(s);
             
         }
 
