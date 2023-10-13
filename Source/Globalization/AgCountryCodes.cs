@@ -54,9 +54,9 @@ namespace Ag.Tools.Globalization
         /// <returns>The string version for the country code, such as "United States". returns "" if not found</returns>
         public string NameFromCode(string countryCode)
         {
-            string s = "";
+            string? s;
             _init().TryGetValue(countryCode, out s);
-            return s;
+            return s??string.Empty;
         }
 
         /// <summary>
