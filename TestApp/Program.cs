@@ -2,9 +2,22 @@
 using Ag.Tools.Extensions;
 class Program
 {
+    public static void TestGlobalization()
+    {
+        Ag.Tools.Globalization.AgCountryCodes cc = new();
+
+        string s = cc.NameFromCode("JP");
+        Console.WriteLine($"Country Name for JP = {s}");
+        Console.WriteLine($"Country Code for {s} = {cc.CodeFromName(s)}");
+    }
+
     static void Main(string[] args)
     {
         int row = 0;
+
+        //
+        // Test Country Codes
+        TestGlobalization();
 
         {
             AgErrorInfo errorInfo = new AgErrorInfo(AgError.E_OTHER);
