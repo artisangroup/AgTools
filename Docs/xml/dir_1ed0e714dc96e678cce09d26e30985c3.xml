@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_1ed0e714dc96e678cce09d26e30985c3" kind="dir">
+    <compoundname>Source/Globalization</compoundname>
+    <innerfile refid="_ag_country_codes_8cs">AgCountryCodes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Globalization/"/>
+  </compounddef>
+</doxygen>

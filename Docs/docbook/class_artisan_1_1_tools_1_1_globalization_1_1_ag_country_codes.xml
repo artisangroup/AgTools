@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes" xml:lang="en-US">
+<title>Artisan.Tools.Globalization.AgCountryCodes Class Reference</title>
+<indexterm><primary>Artisan.Tools.Globalization.AgCountryCodes</primary></indexterm>
+<para>
+
+<para>Static class which resolves country codes and country names. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a7c394a8c52b1a549d7450ec2cc6fa88c">NameFromCode</link> (string countryCode)</para>
+
+<para>Resolves the two digit country code into a country name. </para>
+</listitem>
+            <listitem><para>string <link linkend="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1acecb3207e5a1b25474dc9af8d07941d3">CodeFromName</link> (string countryName)</para>
+
+<para>Resolves the country name into a 2 digit code. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Static class which resolves country codes and country names. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1acecb3207e5a1b25474dc9af8d07941d3"/><section>
+    <title>CodeFromName()</title>
+<indexterm><primary>CodeFromName</primary><secondary>Artisan.Tools.Globalization.AgCountryCodes</secondary></indexterm>
+<indexterm><primary>Artisan.Tools.Globalization.AgCountryCodes</primary><secondary>CodeFromName</secondary></indexterm>
+<para><computeroutput>string Artisan.Tools.Globalization.AgCountryCodes.CodeFromName (string countryName)</computeroutput></para><para>
+
+<para>Resolves the country name into a 2 digit code. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>countryName</entry><entry>
+<para>The long, case insensitive, version of the country, such as &quot;UniTED statES&quot;</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Returns the two digit country code for the name</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a7c394a8c52b1a549d7450ec2cc6fa88c"/><section>
+    <title>NameFromCode()</title>
+<indexterm><primary>NameFromCode</primary><secondary>Artisan.Tools.Globalization.AgCountryCodes</secondary></indexterm>
+<indexterm><primary>Artisan.Tools.Globalization.AgCountryCodes</primary><secondary>NameFromCode</secondary></indexterm>
+<para><computeroutput>string Artisan.Tools.Globalization.AgCountryCodes.NameFromCode (string countryCode)</computeroutput></para><para>
+
+<para>Resolves the two digit country code into a country name. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>countryCode</entry><entry>
+<para>2 digit country code such as &quot;US&quot;</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The string version for the country code, such as &quot;United States&quot;. returns &quot;&quot; if not found</para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Source/Globalization/AgCountryCodes.cs</section>
+</section>

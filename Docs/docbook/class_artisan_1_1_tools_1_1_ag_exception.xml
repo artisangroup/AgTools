@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_artisan_1_1_tools_1_1_ag_exception" xml:lang="en-US">
+<title>Artisan.Tools.AgException Class Reference</title>
+<indexterm><primary>Artisan.Tools.AgException</primary></indexterm>
+<para>Inheritance diagram for Artisan.Tools.AgException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_artisan_1_1_tools_1_1_ag_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4">IsSuccess</link> ()</para>
+
+<para>checks the current error code </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_exception_1aacb601d37dd24cb3b115b1d80fae0b69"/><emphasis role="strong">AgException</emphasis> (Exception ex)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_exception_1ae4b65b4ab5c1db5a0148eb944ba8bf92"/><emphasis role="strong">AgException</emphasis> (int errorCode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_exception_1a61af225af54efc67449a303ed5b6a037"/><emphasis role="strong">AgException</emphasis> (<link linkend="_class_artisan_1_1_tools_1_1_ag_exception">AgException</link> aex)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_exception_1a704dfd6cadbc9f8c223bc6360fe86852"/><emphasis role="strong">AgException</emphasis> (<link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">AgErrorInfo</link> ex)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_exception_1a3e4ca7aa8a00e6259534a48b52c8140c"/><link linkend="_class_artisan_1_1_tools_1_1_ag_exception">AgException</link> <emphasis role="strong">SetErrorInfo</emphasis> (int errorCode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">Artisan.Tools.AgErrorInfo</link>        <itemizedlist>
+            <listitem><para><emphasis role="strong">AgErrorInfo</emphasis> (int errorCode, string? errorMsg=null)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9">LoadErrorMessage</link> (int errorCode)</para>
+
+<para>Loads error message. </para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Properties inherited from <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">Artisan.Tools.AgErrorInfo</link>        <itemizedlist>
+            <listitem><para>int <emphasis role="strong">ErrorCode</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Internal AgError code. </para>
+</listitem>
+            <listitem><para>string? <emphasis role="strong">ErrorMsg</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>string message for the AgError code </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4"/><section>
+    <title>IsSuccess()</title>
+<indexterm><primary>IsSuccess</primary><secondary>Artisan.Tools.AgException</secondary></indexterm>
+<indexterm><primary>Artisan.Tools.AgException</primary><secondary>IsSuccess</secondary></indexterm>
+<para><computeroutput>bool Artisan.Tools.AgException.IsSuccess ( )</computeroutput></para><para>
+
+<para>checks the current error code </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Returns TRUE if the error code is success</para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Source/Error Handling/AgException.cs</section>
+</section>

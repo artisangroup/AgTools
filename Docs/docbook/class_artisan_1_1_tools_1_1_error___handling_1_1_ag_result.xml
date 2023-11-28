@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result" xml:lang="en-US">
+<title>Artisan.Tools.Error_Handling.AgResult&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>Artisan.Tools.Error_Handling.AgResult&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>Allows us to return complex information from an API call. </para>
+ 
+</para>
+<para>Inheritance diagram for Artisan.Tools.Error_Handling.AgResult&lt; T &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1ad42de33705c5162976e0d6d309967b17"/><emphasis role="strong">AgResult</emphasis> ()</para>
+
+<para>Creates object. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1adf7adc1d1447b9c6e3a972b04e5221f5"/><emphasis role="strong">AgResult</emphasis> (bool createInstance=true)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1a299a8b9bd38fb0f831e272405bfb556c"/><emphasis role="strong">AgResult</emphasis> (T result, int <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f">ErrorCode</link>=0)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_class_artisan_1_1_tools_1_1_ag_exception">Artisan.Tools.AgException</link>        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4">IsSuccess</link> ()</para>
+
+<para>checks the current error code </para>
+</listitem>
+            <listitem><para><emphasis role="strong">AgException</emphasis> (Exception ex)</para>
+</listitem>
+            <listitem><para><emphasis role="strong">AgException</emphasis> (int errorCode)</para>
+</listitem>
+            <listitem><para><emphasis role="strong">AgException</emphasis> (<link linkend="_class_artisan_1_1_tools_1_1_ag_exception">AgException</link> aex)</para>
+</listitem>
+            <listitem><para><emphasis role="strong">AgException</emphasis> (<link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">AgErrorInfo</link> ex)</para>
+</listitem>
+            <listitem><para><link linkend="_class_artisan_1_1_tools_1_1_ag_exception">AgException</link> <emphasis role="strong">SetErrorInfo</emphasis> (int errorCode)</para>
+</listitem>
+        </itemizedlist>
+Public Member Functions inherited from <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">Artisan.Tools.AgErrorInfo</link>        <itemizedlist>
+            <listitem><para><emphasis role="strong">AgErrorInfo</emphasis> (int errorCode, string? errorMsg=null)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9">LoadErrorMessage</link> (int errorCode)</para>
+
+<para>Loads error message. </para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1a3fb234a8b3a82f0d2516f186f1441682"/>T? <emphasis role="strong">Result</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Implementation specific return/result object. This could be null. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Properties inherited from <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">Artisan.Tools.AgErrorInfo</link>        <itemizedlist>
+            <listitem><para>int <emphasis role="strong">ErrorCode</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Internal AgError code. </para>
+</listitem>
+            <listitem><para>string? <emphasis role="strong">ErrorMsg</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>string message for the AgError code </para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para>Allows us to return complex information from an API call. </para>
+
+
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>T</entry><entry>
+<para>Type of the return</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+Source/Error Handling/AgResult.cs</section>
+</section>

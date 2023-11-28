@@ -1,0 +1,95 @@
+.TH "Artisan.Tools.Error_Handling.AgResult< T >" 3 "Version 1.0" "AgTools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Artisan.Tools.Error_Handling.AgResult< T > \- Allows us to return complex information from an API call\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBArtisan\&.Tools\&.AgException\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAgResult\fP ()"
+.br
+.RI "Creates object\&. "
+.ti -1c
+.RI "\fBAgResult\fP (bool createInstance=true)"
+.br
+.ti -1c
+.RI "\fBAgResult\fP (T result, int \fBErrorCode\fP=0)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBArtisan\&.Tools\&.AgException\fP
+.in +1c
+.ti -1c
+.RI "bool \fBIsSuccess\fP ()"
+.br
+.RI "checks the current error code "
+.ti -1c
+.RI "\fBAgException\fP (Exception ex)"
+.br
+.ti -1c
+.RI "\fBAgException\fP (int errorCode)"
+.br
+.ti -1c
+.RI "\fBAgException\fP (\fBAgException\fP aex)"
+.br
+.ti -1c
+.RI "\fBAgException\fP (\fBAgErrorInfo\fP ex)"
+.br
+.ti -1c
+.RI "\fBAgException\fP \fBSetErrorInfo\fP (int errorCode)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBArtisan\&.Tools\&.AgErrorInfo\fP
+.in +1c
+.ti -1c
+.RI "\fBAgErrorInfo\fP (int errorCode, string? errorMsg=null)"
+.br
+.ti -1c
+.RI "string \fBLoadErrorMessage\fP (int errorCode)"
+.br
+.RI "Loads error message\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "T? \fBResult\fP\fC [get, set]\fP"
+.br
+.RI "Implementation specific return/result object\&. This could be null\&. "
+.in -1c
+
+Properties inherited from \fBArtisan\&.Tools\&.AgErrorInfo\fP
+.in +1c
+.ti -1c
+.RI "int \fBErrorCode\fP\fC [get, set]\fP"
+.br
+.RI "Internal AgError code\&. "
+.ti -1c
+.RI "string? \fBErrorMsg\fP\fC [get, set]\fP"
+.br
+.RI "string message for the AgError code "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Allows us to return complex information from an API call\&. 
+
+
+.PP
+\fBTemplate Parameters\fP
+.RS 4
+\fIT\fP Type of the return
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for AgTools from the source code\&.

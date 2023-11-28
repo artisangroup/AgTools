@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_artisan_1_1_tools" kind="namespace" language="C#">
+    <compoundname>Artisan::Tools</compoundname>
+    <innerclass refid="class_artisan_1_1_tools_1_1_ag_error" prot="public">Artisan::Tools::AgError</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_ag_error_info" prot="public">Artisan::Tools::AgErrorInfo</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_ag_exception" prot="public">Artisan::Tools::AgException</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_ag_globals" prot="public">Artisan::Tools::AgGlobals</innerclass>
+    <innernamespace refid="namespace_artisan_1_1_tools_1_1_error___handling">Artisan::Tools::Error_Handling</innernamespace>
+    <innernamespace refid="namespace_artisan_1_1_tools_1_1_extensions">Artisan::Tools::Extensions</innernamespace>
+    <innernamespace refid="namespace_artisan_1_1_tools_1_1_globalization">Artisan::Tools::Globalization</innernamespace>
+    <innernamespace refid="namespace_artisan_1_1_tools_1_1_properties">Artisan::Tools::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/AgGlobals.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

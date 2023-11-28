@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="md__source_2readme" kind="page">
+    <compoundname>md__source_2readme</compoundname>
+    <title>AgTools</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__source_2readme_1autotoc_md0"/> This repo contains a simple suite of tools and other gadgets I like to incorporate into projects. </para>
+    </detaileddescription>
+    <location file="Source/readme.md"/>
+  </compounddef>
+</doxygen>

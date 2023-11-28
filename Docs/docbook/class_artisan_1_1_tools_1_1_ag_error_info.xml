@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_artisan_1_1_tools_1_1_ag_error_info" xml:lang="en-US">
+<title>Artisan.Tools.AgErrorInfo Class Reference</title>
+<indexterm><primary>Artisan.Tools.AgErrorInfo</primary></indexterm>
+<para>Inheritance diagram for Artisan.Tools.AgErrorInfo:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_artisan_1_1_tools_1_1_ag_error_info.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_error_info_1a6df519c5b8d31331ce9e53033c0957b1"/><emphasis role="strong">AgErrorInfo</emphasis> (int errorCode, string? errorMsg=null)</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9">LoadErrorMessage</link> (int errorCode)</para>
+
+<para>Loads error message. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f"/>int <emphasis role="strong">ErrorCode</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Internal AgError code. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_artisan_1_1_tools_1_1_ag_error_info_1a7629c99b15c1dd6dd3e4e82125e23cdf"/>string? <emphasis role="strong">ErrorMsg</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>string message for the AgError code </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9"/><section>
+    <title>LoadErrorMessage()</title>
+<indexterm><primary>LoadErrorMessage</primary><secondary>Artisan.Tools.AgErrorInfo</secondary></indexterm>
+<indexterm><primary>Artisan.Tools.AgErrorInfo</primary><secondary>LoadErrorMessage</secondary></indexterm>
+<para><computeroutput>string Artisan.Tools.AgErrorInfo.LoadErrorMessage (int errorCode)</computeroutput></para><para>
+
+<para>Loads error message. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>errorCode</entry><entry>
+<para>one of the AgError codes</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Returns the resource string for the error code</para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Source/Error Handling/AgError.cs</section>
+</section>

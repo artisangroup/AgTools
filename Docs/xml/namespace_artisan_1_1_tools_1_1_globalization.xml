@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_artisan_1_1_tools_1_1_globalization" kind="namespace" language="C#">
+    <compoundname>Artisan::Tools::Globalization</compoundname>
+    <innerclass refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes" prot="public">Artisan::Tools::Globalization::AgCountryCodes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Globalization/AgCountryCodes.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

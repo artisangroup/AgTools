@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="readme_8md" kind="file" language="Markdown">
+    <compoundname>readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>AgTools</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>repo<sp/>contains<sp/>a<sp/>simple<sp/>suite<sp/>of<sp/>tools<sp/>and<sp/>other<sp/>gadgets<sp/>I<sp/>like<sp/>to<sp/>incorporate<sp/>into<sp/>projects.</highlight></codeline>
+    </programlisting>
+    <location file="Source/readme.md"/>
+  </compounddef>
+</doxygen>

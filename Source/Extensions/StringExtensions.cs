@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
 
-namespace Ag.Tools.Extensions;
+namespace Artisan.Tools.Extensions;
 
 /// <summary>
 /// Various string extensions
@@ -21,9 +21,9 @@ public static class StringExtensions
         try
         {
             if (null == _ra)
-                _ra = Assembly.GetAssembly(Type.GetType("Ag.Tools.AgError"));
+                _ra = Assembly.GetAssembly(Type.GetType("Artisan.Tools.AgError"));
             if ((null != _ra) && (null == _rm))
-                _rm = new ResourceManager($"Ag.Tools.Properties.Resources", _ra ?? null);
+                _rm = new ResourceManager($"Artisan.Tools.Properties.Resources", _ra ?? null);
             try
             {
                 if (null != _rm)
@@ -71,5 +71,37 @@ public static class StringExtensions
     {
         return (str == null) ? false : str.Equals(str1, StringComparison.OrdinalIgnoreCase);
     }
+
+    /// <summary>
+    /// Replaces (Case Insensitive)
+    /// </summary>
+    public static string AgReplace(this string s, string oldText, string newText)
+    {
+        return (string.IsNullOrEmpty(s)) ? s : s.Replace(oldText, newText, StringComparison.OrdinalIgnoreCase);
+    }
+
+    /// <summary>
+    /// Checks to see if s2 is somewhere in s1 
+    /// </summary>
+    public static bool AgContains(this string s1, string s2)
+    {
+        return !string.IsNullOrEmpty(s1) && s1.Contains(s2, StringComparison.CurrentCultureIgnoreCase);
+    }
+
+    /// <summary>
+    /// checks to see if the string is "1" or "true"
+    /// ex: string s1 = "true";
+    ///      if (s1.IsTrue())
+    /// </summary>
+    static public bool AgIsTrue(this string x)
+    {
+        return (!string.IsNullOrEmpty(x) && ((x == "1") || (x.ToLower() == "true")));
+    }
+    static public bool AgIsFalse(this string x)
+    {
+        return (!string.IsNullOrEmpty(x) && ((x == "0") || (x.ToLower() == "false")));
+    }
+
+
 
 }

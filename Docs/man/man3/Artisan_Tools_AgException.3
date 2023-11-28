@@ -1,0 +1,77 @@
+.TH "Artisan.Tools.AgException" 3 "Version 1.0" "AgTools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Artisan.Tools.AgException
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBArtisan\&.Tools\&.AgErrorInfo\fP\&.
+.PP
+Inherited by \fBArtisan\&.Tools\&.Error_Handling\&.AgResult< T >\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBIsSuccess\fP ()"
+.br
+.RI "checks the current error code "
+.ti -1c
+.RI "\fBAgException\fP (Exception ex)"
+.br
+.ti -1c
+.RI "\fBAgException\fP (int errorCode)"
+.br
+.ti -1c
+.RI "\fBAgException\fP (\fBAgException\fP aex)"
+.br
+.ti -1c
+.RI "\fBAgException\fP (\fBAgErrorInfo\fP ex)"
+.br
+.ti -1c
+.RI "\fBAgException\fP \fBSetErrorInfo\fP (int errorCode)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBArtisan\&.Tools\&.AgErrorInfo\fP
+.in +1c
+.ti -1c
+.RI "\fBAgErrorInfo\fP (int errorCode, string? errorMsg=null)"
+.br
+.ti -1c
+.RI "string \fBLoadErrorMessage\fP (int errorCode)"
+.br
+.RI "Loads error message\&. "
+.in -1c
+.SS "Additional Inherited Members"
+
+
+Properties inherited from \fBArtisan\&.Tools\&.AgErrorInfo\fP
+.in +1c
+.ti -1c
+.RI "int \fBErrorCode\fP\fC [get, set]\fP"
+.br
+.RI "Internal AgError code\&. "
+.ti -1c
+.RI "string? \fBErrorMsg\fP\fC [get, set]\fP"
+.br
+.RI "string message for the AgError code "
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "bool Artisan\&.Tools\&.AgException\&.IsSuccess ()"
+
+.PP
+checks the current error code 
+.PP
+\fBReturns\fP
+.RS 4
+Returns TRUE if the error code is success
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for AgTools from the source code\&.

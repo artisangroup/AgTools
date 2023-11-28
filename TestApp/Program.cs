@@ -1,23 +1,31 @@
-﻿using Ag.Tools;
-using Ag.Tools.Extensions;
+﻿using Artisan.Tools;
+using Artisan.Tools.Extensions;
+using Artisan.Tools.Database;
+
 class Program
 {
     public static void TestGlobalization()
     {
-        Ag.Tools.Globalization.AgCountryCodes cc = new();
+        Artisan.Tools.Globalization.AgCountryCodes cc = new();
 
         string s = cc.NameFromCode("JP");
         Console.WriteLine($"Country Name for JP = {s}");
         Console.WriteLine($"Country Code for {s} = {cc.CodeFromName(s)}");
     }
+    public static void TestDatabase()
+    {
+        var v = AgSqlBrowser.FindServers();
 
-    static void Main(string[] args)
+    }
+
+static void Main(string[] args)
     {
         int row = 0;
 
         //
         // Test Country Codes
         TestGlobalization();
+        TestDatabase();
 
         {
             AgErrorInfo errorInfo = new AgErrorInfo(AgError.E_OTHER);

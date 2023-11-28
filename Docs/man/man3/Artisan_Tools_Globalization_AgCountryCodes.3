@@ -1,0 +1,62 @@
+.TH "Artisan.Tools.Globalization.AgCountryCodes" 3 "Version 1.0" "AgTools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Artisan.Tools.Globalization.AgCountryCodes \- Static class which resolves country codes and country names\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "string \fBNameFromCode\fP (string countryCode)"
+.br
+.RI "Resolves the two digit country code into a country name\&. "
+.ti -1c
+.RI "string \fBCodeFromName\fP (string countryName)"
+.br
+.RI "Resolves the country name into a 2 digit code\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Static class which resolves country codes and country names\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "string Artisan\&.Tools\&.Globalization\&.AgCountryCodes\&.CodeFromName (string countryName)"
+
+.PP
+Resolves the country name into a 2 digit code\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcountryName\fP The long, case insensitive, version of the country, such as 'UniTED statES'
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns the two digit country code for the name
+.RE
+.PP
+
+.SS "string Artisan\&.Tools\&.Globalization\&.AgCountryCodes\&.NameFromCode (string countryCode)"
+
+.PP
+Resolves the two digit country code into a country name\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcountryCode\fP 2 digit country code such as 'US'
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The string version for the country code, such as 'United States'\&. returns '' if not found
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for AgTools from the source code\&.

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_3b2ccc5c1abf872be9aaa72f64e6058b" kind="dir">
+    <compoundname>Source/obj</compoundname>
+    <innerdir refid="dir_4316b117889416374ce3dce16e4c1bb1">Source/obj/Debug</innerdir>
+    <innerdir refid="dir_ddca103dbde9b49d3a1b7acd9270d5b1">Source/obj/Release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/obj/"/>
+  </compounddef>
+</doxygen>

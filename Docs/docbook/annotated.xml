@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes">Artisan.Tools.Globalization.AgCountryCodes</link>
+<para>Static class which resolves country codes and country names </para>
+<link linkend="_class_artisan_1_1_tools_1_1_ag_error">Artisan.Tools.AgError</link>
+<para>Framework for error codes mapping into string errors </para>
+<link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">Artisan.Tools.AgErrorInfo</link><link linkend="_class_artisan_1_1_tools_1_1_ag_exception">Artisan.Tools.AgException</link><link linkend="_class_artisan_1_1_tools_1_1_ag_globals">Artisan.Tools.AgGlobals</link>
+<para>Global information </para>
+<link linkend="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result">Artisan.Tools.Error_Handling.AgResult&lt; T &gt;</link>
+<para>Allows us to return complex information from an API call </para>
+</section>

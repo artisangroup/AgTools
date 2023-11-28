@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_ag_exception_8cs" kind="file" language="C#">
+    <compoundname>AgException.cs</compoundname>
+    <innerclass refid="class_artisan_1_1_tools_1_1_ag_exception" prot="public">Artisan::Tools::AgException</innerclass>
+    <innernamespace refid="namespace_artisan">Artisan</innernamespace>
+    <innernamespace refid="namespace_artisan_1_1_tools">Artisan::Tools</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text_1_1_json_1_1_serialization">System::Text::Json::Serialization</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text.Json.Serialization;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_artisan_1_1_tools_1_1_extensions" kindref="compound">Artisan.Tools.Extensions</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_artisan_1_1_tools" kindref="compound">Artisan.Tools</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_artisan_1_1_tools_1_1_ag_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref><sp/>:<sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error_info" kindref="compound">AgErrorInfo</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4" kindref="member">IsSuccess</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" kindref="member">ErrorCode</ref><sp/>==<sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error" kindref="compound">AgError</ref>.<ref refid="class_artisan_1_1_tools_1_1_ag_error_1ac3acf3b6b617c8eefd84490dbfc03092" kindref="member">SUCCESS</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref>()<sp/>=&gt;<sp/>SetErrorInfo(<ref refid="class_artisan_1_1_tools_1_1_ag_error" kindref="compound">AgError</ref>.<ref refid="class_artisan_1_1_tools_1_1_ag_error_1ac3acf3b6b617c8eefd84490dbfc03092" kindref="member">SUCCESS</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref>(Exception<sp/>ex)<sp/>=&gt;<sp/>SetErrorInfo(<ref refid="class_artisan_1_1_tools_1_1_ag_error" kindref="compound">AgError</ref>.<ref refid="class_artisan_1_1_tools_1_1_ag_error_1a423a1fe36ae67cd5a0d0a34c17112bea" kindref="member">E_OTHER</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>errorCode)<sp/>=&gt;<sp/>SetErrorInfo(errorCode);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref>(<ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref><sp/>aex)<sp/>=&gt;<sp/>SetErrorInfo(aex.<ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" kindref="member">ErrorCode</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref>(<ref refid="class_artisan_1_1_tools_1_1_ag_error_info" kindref="compound">AgErrorInfo</ref><sp/>ex)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref><sp/>SetErrorInfo(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>errorCode)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" kindref="member">ErrorCode</ref><sp/>=<sp/>errorCode;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a7629c99b15c1dd6dd3e4e82125e23cdf" kindref="member">ErrorMsg</ref><sp/>=<sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9" kindref="member">LoadErrorMessage</ref>(errorCode);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Source/Error Handling/AgException.cs"/>
+  </compounddef>
+</doxygen>

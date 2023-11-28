@@ -1,12 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <RootNamespace>Ag.Tools</RootNamespace>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>Artisan.Tools</RootNamespace>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Description>A Quiver of Tools</Description>
-		<VersionPrefix>1.0.0.17</VersionPrefix>
+		<VersionPrefix>1.0.0.20</VersionPrefix>
 		<VersionSuffix>1</VersionSuffix>
 		<Authors>Artisan Group</Authors>
 		<Company>Artisan Group</Company>
@@ -16,60 +16,65 @@
 		<Configurations>Debug;Release</Configurations>
 		<BaseOutputPath>bin\</BaseOutputPath>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\AgTools.xml</DocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Artisan.Tools.xml</DocumentationFile>
 		<RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
 		<SignAssembly>False</SignAssembly>
-		<PackageId>AgTools</PackageId>
+		<PackageId>Artisan.Tools</PackageId>
 		<Title>Artisan Group Tools</Title>
 		<Copyright>(c) Artisan Group</Copyright>
 		<PackageTags>artisanx; atgi; artisangroup;</PackageTags>
 		<PackageReleaseNotes>Release Notes - Initial build</PackageReleaseNotes>
-		<AssemblyVersion>1.0.0.17</AssemblyVersion><FileVersion>1.0.0.17</FileVersion>
-		<AssemblyName>AgTools</AssemblyName>
+		<AssemblyVersion>1.0.0.20</AssemblyVersion>
+		<FileVersion>1.0.0.20</FileVersion>
+		<AssemblyName>Artisan.Tools</AssemblyName>
 		<ApplicationIcon>resources\circle.ico</ApplicationIcon>
 		<Version>$(VersionPrefix)</Version>
 		<PackageIcon>resources\circle.png</PackageIcon>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<UserSecretsId>41ce268b-f347-4be3-80cf-dea8198b2516</UserSecretsId>
 
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <NoWarn>1701;1702;CS8604;1591;414;</NoWarn>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <NoWarn>1701;1702;CS8604;1591;414;</NoWarn>
-  </PropertyGroup>
-  <ItemGroup>
-    <Content Include="resources\circle.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="resources\circle.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="_data\country.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="_data\time_zone.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<NoWarn>1701;1702;CS8604;1591;414;</NoWarn>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<NoWarn>1701;1702;CS8604;1591;414;</NoWarn>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="resources\circle.ico" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="resources\circle.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="_data\country.csv">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="_data\time_zone.csv">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 </Project>
 
 

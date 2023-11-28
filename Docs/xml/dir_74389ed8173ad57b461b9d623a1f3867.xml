@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir">
+    <compoundname>Source</compoundname>
+    <innerdir refid="dir_8bb379c9b396dd13c93b817ff8f7d9a7">Source/Error Handling</innerdir>
+    <innerdir refid="dir_f35c1202647e09af11f2206b3b2cfe5d">Source/Extensions</innerdir>
+    <innerdir refid="dir_1ed0e714dc96e678cce09d26e30985c3">Source/Globalization</innerdir>
+    <innerdir refid="dir_3b2ccc5c1abf872be9aaa72f64e6058b">Source/obj</innerdir>
+    <innerdir refid="dir_54fd00501a2a7c019ce42f0d7c44cd30">Source/Properties</innerdir>
+    <innerfile refid="_ag_globals_8cs">AgGlobals.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/"/>
+  </compounddef>
+</doxygen>

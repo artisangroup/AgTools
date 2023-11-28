@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_artisan_1_1_tools_1_1_ag_error" kind="class" language="C#" prot="public">
+    <compoundname>Artisan::Tools::AgError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_ag_error_1ac3acf3b6b617c8eefd84490dbfc03092" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Artisan.Tools.AgError.SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>SUCCESS</name>
+        <qualifiedname>Artisan.Tools.AgError.SUCCESS</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Success. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgError.cs" line="13" column="27" bodyfile="Source/Error Handling/AgError.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_ag_error_1affcaab97adf51bd68acf27966f4007af" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Artisan.Tools.AgError.E_EXCEPTION</definition>
+        <argsstring></argsstring>
+        <name>E_EXCEPTION</name>
+        <qualifiedname>Artisan.Tools.AgError.E_EXCEPTION</qualifiedname>
+        <initializer>= 998</initializer>
+        <briefdescription>
+<para>General exception error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgError.cs" line="17" column="27" bodyfile="Source/Error Handling/AgError.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_ag_error_1a423a1fe36ae67cd5a0d0a34c17112bea" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Artisan.Tools.AgError.E_OTHER</definition>
+        <argsstring></argsstring>
+        <name>E_OTHER</name>
+        <qualifiedname>Artisan.Tools.AgError.E_OTHER</qualifiedname>
+        <initializer>= 999</initializer>
+        <briefdescription>
+<para>Other or unknown error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgError.cs" line="22" column="27" bodyfile="Source/Error Handling/AgError.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a framework for error codes mapping into string errors. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Error Handling/AgError.cs" line="8" column="11" bodyfile="Source/Error Handling/AgError.cs" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_1affcaab97adf51bd68acf27966f4007af" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgError</scope><name>E_EXCEPTION</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_1a423a1fe36ae67cd5a0d0a34c17112bea" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgError</scope><name>E_OTHER</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_1ac3acf3b6b617c8eefd84490dbfc03092" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgError</scope><name>SUCCESS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_artisan_1_1_tools_1_1_extensions" kind="namespace" language="C#">
+    <compoundname>Artisan::Tools::Extensions</compoundname>
+    <innerclass refid="class_artisan_1_1_tools_1_1_extensions_1_1_date_time_extensions" prot="public">Artisan::Tools::Extensions::DateTimeExtensions</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_extensions_1_1_int_extensions" prot="public">Artisan::Tools::Extensions::IntExtensions</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_extensions_1_1_long_extensions" prot="public">Artisan::Tools::Extensions::LongExtensions</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions" prot="public">Artisan::Tools::Extensions::ObjectExtensions</innerclass>
+    <innerclass refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions" prot="public">Artisan::Tools::Extensions::StringExtensions</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Extensions/DateTimeExtensions.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

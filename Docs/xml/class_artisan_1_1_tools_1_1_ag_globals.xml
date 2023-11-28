@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_artisan_1_1_tools_1_1_ag_globals" kind="class" language="C#" prot="public">
+    <compoundname>Artisan::Tools::AgGlobals</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_ag_globals_1a8d1a634232a62b7121ac1b6c3f3dce98" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string Artisan.Tools.AgGlobals.Hello</definition>
+        <argsstring></argsstring>
+        <name>Hello</name>
+        <qualifiedname>Artisan.Tools.AgGlobals.Hello</qualifiedname>
+        <initializer>= &quot;Hello&quot;</initializer>
+        <briefdescription>
+<para>The hello string. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/AgGlobals.cs" line="12" column="29" bodyfile="Source/AgGlobals.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Global information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/AgGlobals.cs" line="7" column="11" bodyfile="Source/AgGlobals.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_artisan_1_1_tools_1_1_ag_globals_1a8d1a634232a62b7121ac1b6c3f3dce98" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgGlobals</scope><name>Hello</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

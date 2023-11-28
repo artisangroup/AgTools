@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes" kind="class" language="C#" prot="public">
+    <compoundname>Artisan::Tools::Globalization::AgCountryCodes</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1ad7889b97da877ae96e212da75e280041" prot="private" static="yes" mutable="no">
+        <type>object</type>
+        <definition>object Artisan.Tools.Globalization.AgCountryCodes._lock</definition>
+        <argsstring></argsstring>
+        <name>_lock</name>
+        <qualifiedname>Artisan.Tools.Globalization.AgCountryCodes._lock</qualifiedname>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Globalization/AgCountryCodes.cs" line="15" column="31" bodyfile="Source/Globalization/AgCountryCodes.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1ae56854085a22b37df1a790b2dff28641" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; Artisan.Tools.Globalization.AgCountryCodes._ccDict</definition>
+        <argsstring></argsstring>
+        <name>_ccDict</name>
+        <qualifiedname>Artisan.Tools.Globalization.AgCountryCodes._ccDict</qualifiedname>
+        <initializer>= new Dictionary&lt;string, string&gt;(StringComparer.OrdinalIgnoreCase)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Globalization/AgCountryCodes.cs" line="16" column="35" bodyfile="Source/Globalization/AgCountryCodes.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a31736a169dab60591eb98173a99905b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt; string, string &gt; Artisan.Tools.Globalization.AgCountryCodes._init</definition>
+        <argsstring>()</argsstring>
+        <name>_init</name>
+        <qualifiedname>Artisan.Tools.Globalization.AgCountryCodes._init</qualifiedname>
+        <briefdescription>
+<para>Loads the country code information from the CSV file (<ulink url="https://timezonedb.com/download">https://timezonedb.com/download</ulink>) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the initialized dictionary</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Globalization/AgCountryCodes.cs" line="22" column="28" bodyfile="Source/Globalization/AgCountryCodes.cs" bodystart="22" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a7c394a8c52b1a549d7450ec2cc6fa88c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Artisan.Tools.Globalization.AgCountryCodes.NameFromCode</definition>
+        <argsstring>(string countryCode)</argsstring>
+        <name>NameFromCode</name>
+        <qualifiedname>Artisan.Tools.Globalization.AgCountryCodes.NameFromCode</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>countryCode</declname>
+        </param>
+        <briefdescription>
+<para>Resolves the two digit country code into a country name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>countryCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2 digit country code such as &quot;US&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The string version for the country code, such as &quot;United States&quot;. returns &quot;&quot; if not found</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Globalization/AgCountryCodes.cs" line="55" column="23" bodyfile="Source/Globalization/AgCountryCodes.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1acecb3207e5a1b25474dc9af8d07941d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Artisan.Tools.Globalization.AgCountryCodes.CodeFromName</definition>
+        <argsstring>(string countryName)</argsstring>
+        <name>CodeFromName</name>
+        <qualifiedname>Artisan.Tools.Globalization.AgCountryCodes.CodeFromName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>countryName</declname>
+        </param>
+        <briefdescription>
+<para>Resolves the country name into a 2 digit code. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>countryName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The long, case insensitive, version of the country, such as &quot;UniTED statES&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the two digit country code for the name</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Globalization/AgCountryCodes.cs" line="67" column="23" bodyfile="Source/Globalization/AgCountryCodes.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Static class which resolves country codes and country names. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Globalization/AgCountryCodes.cs" line="13" column="11" bodyfile="Source/Globalization/AgCountryCodes.cs" bodystart="14" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1ae56854085a22b37df1a790b2dff28641" prot="private" virt="non-virtual"><scope>Artisan::Tools::Globalization::AgCountryCodes</scope><name>_ccDict</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a31736a169dab60591eb98173a99905b9" prot="private" virt="non-virtual"><scope>Artisan::Tools::Globalization::AgCountryCodes</scope><name>_init</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1ad7889b97da877ae96e212da75e280041" prot="private" virt="non-virtual"><scope>Artisan::Tools::Globalization::AgCountryCodes</scope><name>_lock</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1acecb3207e5a1b25474dc9af8d07941d3" prot="public" virt="non-virtual"><scope>Artisan::Tools::Globalization::AgCountryCodes</scope><name>CodeFromName</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a7c394a8c52b1a549d7450ec2cc6fa88c" prot="public" virt="non-virtual"><scope>Artisan::Tools::Globalization::AgCountryCodes</scope><name>NameFromCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

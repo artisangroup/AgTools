@@ -1,0 +1,75 @@
+\doxysection{Artisan.\+Tools.\+Error\+\_\+\+Handling.\+Ag\+Result\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result}{}\label{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result}\index{Artisan.Tools.Error\_Handling.AgResult$<$ T $>$@{Artisan.Tools.Error\_Handling.AgResult$<$ T $>$}}
+
+
+Allows us to return complex information from an API call.  
+
+
+Inheritance diagram for Artisan.\+Tools.\+Error\+\_\+\+Handling.\+Ag\+Result\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_ad42de33705c5162976e0d6d309967b17}\label{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_ad42de33705c5162976e0d6d309967b17} 
+{\bfseries Ag\+Result} ()
+\begin{DoxyCompactList}\small\item\em Creates object. \end{DoxyCompactList}\item 
+\Hypertarget{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_adf7adc1d1447b9c6e3a972b04e5221f5}\label{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_adf7adc1d1447b9c6e3a972b04e5221f5} 
+{\bfseries Ag\+Result} (bool create\+Instance=true)
+\item 
+\Hypertarget{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_a299a8b9bd38fb0f831e272405bfb556c}\label{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_a299a8b9bd38fb0f831e272405bfb556c} 
+{\bfseries Ag\+Result} (T result, int \mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_error_info_a76d43fa36c3e28e36d6e1edaf4017f9f}{Error\+Code}}=0)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_exception}{Artisan.\+Tools.\+Ag\+Exception}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_exception_a856c351f2a2c245d154c43f180acaed4}{Is\+Success}} ()
+\begin{DoxyCompactList}\small\item\em checks the current error code \end{DoxyCompactList}\item 
+{\bfseries Ag\+Exception} (Exception ex)
+\item 
+{\bfseries Ag\+Exception} (int error\+Code)
+\item 
+{\bfseries Ag\+Exception} (\mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_exception}{Ag\+Exception}} aex)
+\item 
+{\bfseries Ag\+Exception} (\mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_error_info}{Ag\+Error\+Info}} ex)
+\item 
+\mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_exception}{Ag\+Exception}} {\bfseries Set\+Error\+Info} (int error\+Code)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_error_info}{Artisan.\+Tools.\+Ag\+Error\+Info}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Ag\+Error\+Info} (int error\+Code, string? error\+Msg=null)
+\item 
+string \mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_error_info_a91a55762ff27625e3807e39f775f51a9}{Load\+Error\+Message}} (int error\+Code)
+\begin{DoxyCompactList}\small\item\em Loads error message. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_a3fb234a8b3a82f0d2516f186f1441682}\label{class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_a3fb234a8b3a82f0d2516f186f1441682} 
+T? {\bfseries Result}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Implementation specific return/result object. This could be null. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_artisan_1_1_tools_1_1_ag_error_info}{Artisan.\+Tools.\+Ag\+Error\+Info}}}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries Error\+Code}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Internal Ag\+Error code. \end{DoxyCompactList}\item 
+string? {\bfseries Error\+Msg}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em string message for the Ag\+Error code \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows us to return complex information from an API call. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of the return\\
+\hline
+\end{DoxyTemplParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Error Handling/Ag\+Result.\+cs\end{DoxyCompactItemize}

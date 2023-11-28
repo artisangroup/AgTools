@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Artisan::Tools::Extensions::StringExtensions</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1af79d133d31cce42e57284d597ed77306" prot="public" static="yes" mutable="no">
+        <type>? Assembly</type>
+        <definition>? Assembly Artisan.Tools.Extensions.StringExtensions._ra</definition>
+        <argsstring></argsstring>
+        <name>_ra</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions._ra</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Loads a string resource from this assembly. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the loaded resource if successful or the original string, or string.Empty</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="16" column="28" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1ace31d4c90185bba9196b37b645a3f6d4" prot="public" static="yes" mutable="no">
+        <type>? ResourceManager</type>
+        <definition>? ResourceManager Artisan.Tools.Extensions.StringExtensions._rm</definition>
+        <argsstring></argsstring>
+        <name>_rm</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions._rm</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="17" column="35" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1aaa59bb1d9fffea340869adda86ca4f3a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Artisan.Tools.Extensions.StringExtensions.AgLoadString</definition>
+        <argsstring>(this string? str, string defaultString=&quot;&quot;)</argsstring>
+        <name>AgLoadString</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions.AgLoadString</qualifiedname>
+        <param>
+          <type>this string?</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultString</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="18" column="26" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="18" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1a3bb9cc086c62c63c002a7e3e42c2bb1d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Artisan.Tools.Extensions.StringExtensions.AgStartsWithUpper</definition>
+        <argsstring>(this string? str)</argsstring>
+        <name>AgStartsWithUpper</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions.AgStartsWithUpper</qualifiedname>
+        <param>
+          <type>this string?</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Checks to see if the first letter is an upper case character. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to check</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns true if the first character is uppercase</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="49" column="24" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1abd8bf6498ab6d3899ee6d5524de94fcd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Artisan.Tools.Extensions.StringExtensions.AgStartsWithLower</definition>
+        <argsstring>(this string? str)</argsstring>
+        <name>AgStartsWithLower</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions.AgStartsWithLower</qualifiedname>
+        <param>
+          <type>this string?</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Checks to see if the first letter is an lower case character. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to check</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns true if the first character is lowercase</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="59" column="24" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1a60a56b54f623bee92cf146f7c076dcd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Artisan.Tools.Extensions.StringExtensions.AgIsEqual</definition>
+        <argsstring>(this string str, string str1)</argsstring>
+        <name>AgIsEqual</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions.AgIsEqual</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>str1</declname>
+        </param>
+        <briefdescription>
+<para>Performs a simple case insensitive equality comparison. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source string for the comparison (cannot be null)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>str1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target string for the comparison</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns true for a case-insensitive equality</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="70" column="24" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1aaed4a33c69485a2b4187c643e20bde78" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Artisan.Tools.Extensions.StringExtensions.AgReplace</definition>
+        <argsstring>(this string s, string oldText, string newText)</argsstring>
+        <name>AgReplace</name>
+        <qualifiedname>Artisan.Tools.Extensions.StringExtensions.AgReplace</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>oldText</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>newText</declname>
+        </param>
+        <briefdescription>
+<para>Replaces (Case Insensitive) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/StringExtensions.cs" line="78" column="26" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Various string extensions. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Extensions/StringExtensions.cs" line="10" column="15" bodyfile="Source/Extensions/StringExtensions.cs" bodystart="11" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1af79d133d31cce42e57284d597ed77306" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>_ra</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1ace31d4c90185bba9196b37b645a3f6d4" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>_rm</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1a60a56b54f623bee92cf146f7c076dcd6" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>AgIsEqual</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1aaa59bb1d9fffea340869adda86ca4f3a" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>AgLoadString</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1aaed4a33c69485a2b4187c643e20bde78" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>AgReplace</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1abd8bf6498ab6d3899ee6d5524de94fcd" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>AgStartsWithLower</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1a3bb9cc086c62c63c002a7e3e42c2bb1d" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::StringExtensions</scope><name>AgStartsWithUpper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

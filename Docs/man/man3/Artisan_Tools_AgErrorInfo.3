@@ -1,0 +1,55 @@
+.TH "Artisan.Tools.AgErrorInfo" 3 "Version 1.0" "AgTools" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Artisan.Tools.AgErrorInfo
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBArtisan\&.Tools\&.AgException\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAgErrorInfo\fP (int errorCode, string? errorMsg=null)"
+.br
+.ti -1c
+.RI "string \fBLoadErrorMessage\fP (int errorCode)"
+.br
+.RI "Loads error message\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBErrorCode\fP\fC [get, set]\fP"
+.br
+.RI "Internal AgError code\&. "
+.ti -1c
+.RI "string? \fBErrorMsg\fP\fC [get, set]\fP"
+.br
+.RI "string message for the AgError code "
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "string Artisan\&.Tools\&.AgErrorInfo\&.LoadErrorMessage (int errorCode)"
+
+.PP
+Loads error message\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIerrorCode\fP one of the AgError codes
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns the resource string for the error code
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for AgTools from the source code\&.

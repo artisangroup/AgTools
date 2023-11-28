@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Ag.Tools.Extensions
+namespace Artisan.Tools.Extensions
 {
     /// <summary>
     /// Extensions for general objects and classes. These leverage reflection

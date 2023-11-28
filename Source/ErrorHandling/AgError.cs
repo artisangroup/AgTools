@@ -1,6 +1,6 @@
-﻿using Ag.Tools.Extensions;
+﻿using Artisan.Tools.Extensions;
 
-namespace Ag.Tools
+namespace Artisan.Tools
 {
     /// <summary>
     /// a framework for error codes mapping into string errors.
@@ -41,14 +41,18 @@ namespace Ag.Tools
         /// string message for the AgError code
         /// </summary>
         public string? ErrorMsg { get; set; }
+
         public AgErrorInfo() => _init(AgError.SUCCESS);
         public AgErrorInfo(int errorCode, string? errorMsg = null) => _init(errorCode, errorMsg);
+        public AgErrorInfo(AgErrorInfo ei) => _init(ei.ErrorCode, ei.ErrorMsg);
+
         private void _init(int errorCode, string? errorMsg = null)
         {
             ErrorCode = errorCode;
             ErrorMsg = errorMsg ?? LoadErrorMessage(errorCode);
 
         }
+
 
         /// <summary>
         /// Loads error message

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>AgTools</title>
+    </info>
+    <xi:include href="md__source_2readme.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespace_artisan.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_artisan_1_1_tools.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_artisan_1_1_tools_1_1_error___handling.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_artisan_1_1_tools_1_1_extensions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_artisan_1_1_tools_1_1_globalization.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_artisan_1_1_tools_1_1_properties.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_artisan_1_1_tools_1_1_ag_error.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_artisan_1_1_tools_1_1_ag_error_info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_artisan_1_1_tools_1_1_ag_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_artisan_1_1_tools_1_1_ag_globals.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_ag_result_8cs" kind="file" language="C#">
+    <compoundname>AgResult.cs</compoundname>
+    <innerclass refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result" prot="public">Artisan::Tools::Error_Handling::AgResult</innerclass>
+    <innernamespace refid="namespace_artisan">Artisan</innernamespace>
+    <innernamespace refid="namespace_artisan_1_1_tools">Artisan::Tools</innernamespace>
+    <innernamespace refid="namespace_artisan_1_1_tools_1_1_error___handling">Artisan::Tools::Error_Handling</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_artisan_1_1_tools_1_1_error___handling" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_artisan_1_1_tools_1_1_error___handling" kindref="compound">Artisan.Tools.Error_Handling</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result" kindref="compound">AgResult</ref>&lt;T&gt;<sp/>:<sp/><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>T?<sp/><ref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1a3fb234a8b3a82f0d2516f186f1441682" kindref="member">Result</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1ad42de33705c5162976e0d6d309967b17" kindref="member">AgResult</ref>()<sp/>:<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">(</highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1ad42de33705c5162976e0d6d309967b17" kindref="member">AgResult</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>createInstance<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(createInstance<sp/>&amp;&amp;<sp/>(typeof(T)<sp/>!=<sp/>typeof(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1a3fb234a8b3a82f0d2516f186f1441682" kindref="member">Result</ref><sp/>=<sp/>Activator.CreateInstance&lt;T&gt;();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1ad42de33705c5162976e0d6d309967b17" kindref="member">AgResult</ref>(T<sp/>result,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" kindref="member">ErrorCode</ref><sp/>=<sp/>0)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Result<sp/>=<sp/>(result<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)<sp/>?<sp/>Activator.CreateInstance&lt;T&gt;()<sp/>:<sp/>result;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.SetErrorInfo(<ref refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" kindref="member">ErrorCode</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Source/Error Handling/AgResult.cs"/>
+  </compounddef>
+</doxygen>

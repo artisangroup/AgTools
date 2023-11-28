@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Artisan::Tools::Extensions::ObjectExtensions</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions_1a731918873f29984241950658abe2136d" prot="private" static="yes" mutable="no">
+        <type>BindingFlags</type>
+        <definition>BindingFlags Artisan.Tools.Extensions.ObjectExtensions._bindFlags</definition>
+        <argsstring></argsstring>
+        <name>_bindFlags</name>
+        <qualifiedname>Artisan.Tools.Extensions.ObjectExtensions._bindFlags</qualifiedname>
+        <initializer>=
+            BindingFlags.FlattenHierarchy |
+            BindingFlags.GetProperty |
+            BindingFlags.IgnoreCase |
+            BindingFlags.Instance |
+            BindingFlags.NonPublic |
+            BindingFlags.Public |
+            BindingFlags.Static</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/ObjectExtensions.cs" line="11" column="37" bodyfile="Source/Extensions/ObjectExtensions.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions_1aed90227e00125ccc038fd1f8f9e6c5f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Artisan.Tools.Extensions.ObjectExtensions.AgHasProp</definition>
+        <argsstring>(this object o, string p, bool isPublic=true)</argsstring>
+        <name>AgHasProp</name>
+        <qualifiedname>Artisan.Tools.Extensions.ObjectExtensions.AgHasProp</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isPublic</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Checks to see if the object contains a property with this name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object to check</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the property (case-insensitive)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isPublic</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, only public properties are checked</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns true if the object contains a property with the supplied name</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Extensions/ObjectExtensions.cs" line="27" column="28" bodyfile="Source/Extensions/ObjectExtensions.cs" bodystart="27" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Extensions for general objects and classes. These leverage reflection to help access props and other stuff. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Extensions/ObjectExtensions.cs" line="9" column="19" bodyfile="Source/Extensions/ObjectExtensions.cs" bodystart="10" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions_1a731918873f29984241950658abe2136d" prot="private" virt="non-virtual"><scope>Artisan::Tools::Extensions::ObjectExtensions</scope><name>_bindFlags</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions_1aed90227e00125ccc038fd1f8f9e6c5f5" prot="public" virt="non-virtual"><scope>Artisan::Tools::Extensions::ObjectExtensions</scope><name>AgHasProp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

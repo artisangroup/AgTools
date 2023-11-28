@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes" kind="class"><name>Artisan::Tools::Globalization::AgCountryCodes</name>
+    <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1ad7889b97da877ae96e212da75e280041" kind="variable"><name>_lock</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1ae56854085a22b37df1a790b2dff28641" kind="variable"><name>_ccDict</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a31736a169dab60591eb98173a99905b9" kind="function"><name>_init</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1a7c394a8c52b1a549d7450ec2cc6fa88c" kind="function"><name>NameFromCode</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_1acecb3207e5a1b25474dc9af8d07941d3" kind="function"><name>CodeFromName</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_ag_error" kind="class"><name>Artisan::Tools::AgError</name>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_1ac3acf3b6b617c8eefd84490dbfc03092" kind="variable"><name>SUCCESS</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_1affcaab97adf51bd68acf27966f4007af" kind="variable"><name>E_EXCEPTION</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_1a423a1fe36ae67cd5a0d0a34c17112bea" kind="variable"><name>E_OTHER</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_ag_error_info" kind="class"><name>Artisan::Tools::AgErrorInfo</name>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1afc6de8db1c0eb6c1369c15097c398b33" kind="variable"><name>_emap</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a7629c99b15c1dd6dd3e4e82125e23cdf" kind="property"><name>ErrorMsg</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a5a3780037f0f16f8a518633b4df4c66f" kind="function"><name>AgErrorInfo</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a6df519c5b8d31331ce9e53033c0957b1" kind="function"><name>AgErrorInfo</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9" kind="function"><name>LoadErrorMessage</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a87478ddf18fda4ad9b7bee34dbdbb2ac" kind="function"><name>_init</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_ag_exception" kind="class"><name>Artisan::Tools::AgException</name>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4" kind="function"><name>IsSuccess</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a3ad7f93b26d6ac63cd5026cab191ee70" kind="function"><name>AgException</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1aacb601d37dd24cb3b115b1d80fae0b69" kind="function"><name>AgException</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1ae4b65b4ab5c1db5a0148eb944ba8bf92" kind="function"><name>AgException</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a61af225af54efc67449a303ed5b6a037" kind="function"><name>AgException</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a704dfd6cadbc9f8c223bc6360fe86852" kind="function"><name>AgException</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a3e4ca7aa8a00e6259534a48b52c8140c" kind="function"><name>SetErrorInfo</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_ag_globals" kind="class"><name>Artisan::Tools::AgGlobals</name>
+    <member refid="class_artisan_1_1_tools_1_1_ag_globals_1a8d1a634232a62b7121ac1b6c3f3dce98" kind="variable"><name>Hello</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result" kind="class"><name>Artisan::Tools::Error_Handling::AgResult</name>
+    <member refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1a3fb234a8b3a82f0d2516f186f1441682" kind="property"><name>Result</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1ad42de33705c5162976e0d6d309967b17" kind="function"><name>AgResult</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1adf7adc1d1447b9c6e3a972b04e5221f5" kind="function"><name>AgResult</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result_1a299a8b9bd38fb0f831e272405bfb556c" kind="function"><name>AgResult</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_extensions_1_1_date_time_extensions" kind="class"><name>Artisan::Tools::Extensions::DateTimeExtensions</name>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_date_time_extensions_1a678755265282a7ab623da14882d7afbe" kind="function"><name>AgToUnix</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_date_time_extensions_1ab5d0cb82cf93de9542d150f53b6de815" kind="function"><name>AgFormatAsLocal</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_extensions_1_1_int_extensions" kind="class"><name>Artisan::Tools::Extensions::IntExtensions</name>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_extensions_1_1_long_extensions" kind="class"><name>Artisan::Tools::Extensions::LongExtensions</name>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions" kind="class"><name>Artisan::Tools::Extensions::ObjectExtensions</name>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions_1a731918873f29984241950658abe2136d" kind="variable"><name>_bindFlags</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_object_extensions_1aed90227e00125ccc038fd1f8f9e6c5f5" kind="function"><name>AgHasProp</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_properties_1_1_resources" kind="class"><name>Artisan::Tools::Properties::Resources</name>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1a72296d0ed350e04a7cdd23cd60b4938a" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1afb55941be2fda3bb1b172c10e6d9b20a" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1aa0ead32044d48137fd7b402ee8eb7824" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1a728fc3e79d14ff3811b3f6180efca0bb" kind="property"><name>Culture</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1a30d94d283b7ca154f44f0b3ac4691b45" kind="property"><name>AgError_E_EXCEPTION</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1a083403d952a66327e04594ca26f955d4" kind="property"><name>AgError_E_OTHER</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1a4d809124a6022a4c9387e555bc617620" kind="property"><name>AgError_SUCCESS</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1aa058774353af45596f99579e8e14e0c0" kind="property"><name>HelloWorld</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_properties_1_1_resources_1af243743086d794aa0b63a6d91a6c87b2" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions" kind="class"><name>Artisan::Tools::Extensions::StringExtensions</name>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1af79d133d31cce42e57284d597ed77306" kind="variable"><name>_ra</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1ace31d4c90185bba9196b37b645a3f6d4" kind="variable"><name>_rm</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1aaa59bb1d9fffea340869adda86ca4f3a" kind="function"><name>AgLoadString</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1a3bb9cc086c62c63c002a7e3e42c2bb1d" kind="function"><name>AgStartsWithUpper</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1abd8bf6498ab6d3899ee6d5524de94fcd" kind="function"><name>AgStartsWithLower</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1a60a56b54f623bee92cf146f7c076dcd6" kind="function"><name>AgIsEqual</name></member>
+    <member refid="class_artisan_1_1_tools_1_1_extensions_1_1_string_extensions_1aaed4a33c69485a2b4187c643e20bde78" kind="function"><name>AgReplace</name></member>
+  </compound>
+  <compound refid="namespace_artisan" kind="namespace"><name>Artisan</name>
+  </compound>
+  <compound refid="namespace_artisan_1_1_tools" kind="namespace"><name>Artisan::Tools</name>
+  </compound>
+  <compound refid="namespace_artisan_1_1_tools_1_1_error___handling" kind="namespace"><name>Artisan::Tools::Error_Handling</name>
+  </compound>
+  <compound refid="namespace_artisan_1_1_tools_1_1_extensions" kind="namespace"><name>Artisan::Tools::Extensions</name>
+  </compound>
+  <compound refid="namespace_artisan_1_1_tools_1_1_globalization" kind="namespace"><name>Artisan::Tools::Globalization</name>
+  </compound>
+  <compound refid="namespace_artisan_1_1_tools_1_1_properties" kind="namespace"><name>Artisan::Tools::Properties</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_json" kind="namespace"><name>System::Text::Json</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_json_1_1_serialization" kind="namespace"><name>System::Text::Json::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_ag_globals_8cs" kind="file"><name>AgGlobals.cs</name>
+  </compound>
+  <compound refid="_ag_error_8cs" kind="file"><name>AgError.cs</name>
+  </compound>
+  <compound refid="_ag_exception_8cs" kind="file"><name>AgException.cs</name>
+  </compound>
+  <compound refid="_ag_result_8cs" kind="file"><name>AgResult.cs</name>
+  </compound>
+  <compound refid="_date_time_extensions_8cs" kind="file"><name>DateTimeExtensions.cs</name>
+  </compound>
+  <compound refid="_int_extensions_8cs" kind="file"><name>IntExtensions.cs</name>
+  </compound>
+  <compound refid="_long_extensions_8cs" kind="file"><name>LongExtensions.cs</name>
+  </compound>
+  <compound refid="_object_extensions_8cs" kind="file"><name>ObjectExtensions.cs</name>
+  </compound>
+  <compound refid="_string_extensions_8cs" kind="file"><name>StringExtensions.cs</name>
+  </compound>
+  <compound refid="_ag_country_codes_8cs" kind="file"><name>AgCountryCodes.cs</name>
+  </compound>
+  <compound refid="_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_release_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_debug_2net7_80_2_ag_tools_8_assembly_info_8cs" kind="file"><name>AgTools.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2net7_80_2_ag_tools_8_assembly_info_8cs" kind="file"><name>AgTools.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net7_80_2_ag_tools_8_global_usings_8g_8cs" kind="file"><name>AgTools.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_release_2net7_80_2_ag_tools_8_global_usings_8g_8cs" kind="file"><name>AgTools.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="readme_8md" kind="file"><name>readme.md</name>
+  </compound>
+  <compound refid="md__source_2readme" kind="page"><name>md__source_2readme</name>
+  </compound>
+  <compound refid="dir_4316b117889416374ce3dce16e4c1bb1" kind="dir"><name>Source/obj/Debug</name>
+  </compound>
+  <compound refid="dir_8bb379c9b396dd13c93b817ff8f7d9a7" kind="dir"><name>Source/Error Handling</name>
+  </compound>
+  <compound refid="dir_f35c1202647e09af11f2206b3b2cfe5d" kind="dir"><name>Source/Extensions</name>
+  </compound>
+  <compound refid="dir_1ed0e714dc96e678cce09d26e30985c3" kind="dir"><name>Source/Globalization</name>
+  </compound>
+  <compound refid="dir_bb29edaef331a1118aad83b0625b38c9" kind="dir"><name>Source/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_f809ffd05da7f207b8e8b7821f6c410b" kind="dir"><name>Source/obj/Release/net7.0</name>
+  </compound>
+  <compound refid="dir_3b2ccc5c1abf872be9aaa72f64e6058b" kind="dir"><name>Source/obj</name>
+  </compound>
+  <compound refid="dir_54fd00501a2a7c019ce42f0d7c44cd30" kind="dir"><name>Source/Properties</name>
+  </compound>
+  <compound refid="dir_ddca103dbde9b49d3a1b7acd9270d5b1" kind="dir"><name>Source/obj/Release</name>
+  </compound>
+  <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
+  </compound>
+</doxygenindex>

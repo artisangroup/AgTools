@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ag.Tools.Extensions;
+using Artisan.Tools.Extensions;
 
-namespace Ag.Tools.Globalization
+namespace Artisan.Tools.Globalization
 {
     /// <summary>
     /// Static class which resolves country codes and country names

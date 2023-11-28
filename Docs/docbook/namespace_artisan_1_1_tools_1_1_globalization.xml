@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_artisan_1_1_tools_1_1_globalization" xml:lang="en-US">
+<title>Artisan.Tools.Globalization Namespace Reference</title>
+<indexterm><primary>Artisan.Tools.Globalization</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes">AgCountryCodes</link></para>
+
+<para>Static class which resolves country codes and country names. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

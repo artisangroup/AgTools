@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_artisan_1_1_tools" xml:lang="en-US">
+<title>Artisan.Tools Namespace Reference</title>
+<indexterm><primary>Artisan.Tools</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_artisan_1_1_tools_1_1_ag_error">AgError</link></para>
+
+<para>a framework for error codes mapping into string errors. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_artisan_1_1_tools_1_1_ag_error_info">AgErrorInfo</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_artisan_1_1_tools_1_1_ag_exception">AgException</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_artisan_1_1_tools_1_1_ag_globals">AgGlobals</link></para>
+
+<para>Global information. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

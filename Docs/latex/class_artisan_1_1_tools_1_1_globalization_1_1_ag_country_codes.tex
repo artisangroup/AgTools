@@ -1,0 +1,61 @@
+\doxysection{Artisan.\+Tools.\+Globalization.\+Ag\+Country\+Codes Class Reference}
+\hypertarget{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes}{}\label{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes}\index{Artisan.Tools.Globalization.AgCountryCodes@{Artisan.Tools.Globalization.AgCountryCodes}}
+
+
+Static class which resolves country codes and country names.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_a7c394a8c52b1a549d7450ec2cc6fa88c}{Name\+From\+Code}} (string country\+Code)
+\begin{DoxyCompactList}\small\item\em Resolves the two digit country code into a country name. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_acecb3207e5a1b25474dc9af8d07941d3}{Code\+From\+Name}} (string country\+Name)
+\begin{DoxyCompactList}\small\item\em Resolves the country name into a 2 digit code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Static class which resolves country codes and country names. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_acecb3207e5a1b25474dc9af8d07941d3}\label{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_acecb3207e5a1b25474dc9af8d07941d3} 
+\index{Artisan.Tools.Globalization.AgCountryCodes@{Artisan.Tools.Globalization.AgCountryCodes}!CodeFromName@{CodeFromName}}
+\index{CodeFromName@{CodeFromName}!Artisan.Tools.Globalization.AgCountryCodes@{Artisan.Tools.Globalization.AgCountryCodes}}
+\doxysubsubsection{\texorpdfstring{CodeFromName()}{CodeFromName()}}
+{\footnotesize\ttfamily string Artisan.\+Tools.\+Globalization.\+Ag\+Country\+Codes.\+Code\+From\+Name (\begin{DoxyParamCaption}\item[{string}]{country\+Name }\end{DoxyParamCaption})}
+
+
+
+Resolves the country name into a 2 digit code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em country\+Name} & The long, case insensitive, version of the country, such as "{}\+Uni\+TED stat\+ES"{}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the two digit country code for the name
+\end{DoxyReturn}
+\Hypertarget{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_a7c394a8c52b1a549d7450ec2cc6fa88c}\label{class_artisan_1_1_tools_1_1_globalization_1_1_ag_country_codes_a7c394a8c52b1a549d7450ec2cc6fa88c} 
+\index{Artisan.Tools.Globalization.AgCountryCodes@{Artisan.Tools.Globalization.AgCountryCodes}!NameFromCode@{NameFromCode}}
+\index{NameFromCode@{NameFromCode}!Artisan.Tools.Globalization.AgCountryCodes@{Artisan.Tools.Globalization.AgCountryCodes}}
+\doxysubsubsection{\texorpdfstring{NameFromCode()}{NameFromCode()}}
+{\footnotesize\ttfamily string Artisan.\+Tools.\+Globalization.\+Ag\+Country\+Codes.\+Name\+From\+Code (\begin{DoxyParamCaption}\item[{string}]{country\+Code }\end{DoxyParamCaption})}
+
+
+
+Resolves the two digit country code into a country name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em country\+Code} & 2 digit country code such as "{}\+US"{}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string version for the country code, such as "{}\+United States"{}. returns "{}"{} if not found
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Globalization/Ag\+Country\+Codes.\+cs\end{DoxyCompactItemize}

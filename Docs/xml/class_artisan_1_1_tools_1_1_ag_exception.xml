@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_artisan_1_1_tools_1_1_ag_exception" kind="class" language="C#" prot="public">
+    <compoundname>Artisan::Tools::AgException</compoundname>
+    <basecompoundref refid="class_artisan_1_1_tools_1_1_ag_error_info" prot="public" virt="non-virtual">Artisan.Tools.AgErrorInfo</basecompoundref>
+    <derivedcompoundref refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result" prot="public" virt="non-virtual">Artisan.Tools.Error_Handling.AgResult&lt; T &gt;</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Artisan.Tools.AgException.IsSuccess</definition>
+        <argsstring>()</argsstring>
+        <name>IsSuccess</name>
+        <qualifiedname>Artisan.Tools.AgException.IsSuccess</qualifiedname>
+        <briefdescription>
+<para>checks the current error code </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns TRUE if the error code is success</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="12" column="21" bodyfile="Source/Error Handling/AgException.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1a3ad7f93b26d6ac63cd5026cab191ee70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Artisan.Tools.AgException.AgException</definition>
+        <argsstring>()</argsstring>
+        <name>AgException</name>
+        <qualifiedname>Artisan.Tools.AgException.AgException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="14" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1aacb601d37dd24cb3b115b1d80fae0b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Artisan.Tools.AgException.AgException</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>AgException</name>
+        <qualifiedname>Artisan.Tools.AgException.AgException</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="15" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1ae4b65b4ab5c1db5a0148eb944ba8bf92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Artisan.Tools.AgException.AgException</definition>
+        <argsstring>(int errorCode)</argsstring>
+        <name>AgException</name>
+        <qualifiedname>Artisan.Tools.AgException.AgException</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>errorCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="16" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1a61af225af54efc67449a303ed5b6a037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Artisan.Tools.AgException.AgException</definition>
+        <argsstring>(AgException aex)</argsstring>
+        <name>AgException</name>
+        <qualifiedname>Artisan.Tools.AgException.AgException</qualifiedname>
+        <param>
+          <type><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref></type>
+          <declname>aex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="17" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1a704dfd6cadbc9f8c223bc6360fe86852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Artisan.Tools.AgException.AgException</definition>
+        <argsstring>(AgErrorInfo ex)</argsstring>
+        <name>AgException</name>
+        <qualifiedname>Artisan.Tools.AgException.AgException</qualifiedname>
+        <param>
+          <type><ref refid="class_artisan_1_1_tools_1_1_ag_error_info" kindref="compound">AgErrorInfo</ref></type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="18" column="16" bodyfile="Source/Error Handling/AgException.cs" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_artisan_1_1_tools_1_1_ag_exception_1a3e4ca7aa8a00e6259534a48b52c8140c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_artisan_1_1_tools_1_1_ag_exception" kindref="compound">AgException</ref></type>
+        <definition>AgException Artisan.Tools.AgException.SetErrorInfo</definition>
+        <argsstring>(int errorCode)</argsstring>
+        <name>SetErrorInfo</name>
+        <qualifiedname>Artisan.Tools.AgException.SetErrorInfo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>errorCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Error Handling/AgException.cs" line="21" column="28" bodyfile="Source/Error Handling/AgException.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AgErrorInfo</label>
+        <link refid="class_artisan_1_1_tools_1_1_ag_error_info"/>
+      </node>
+      <node id="1">
+        <label>Artisan.Tools.AgException</label>
+        <link refid="class_artisan_1_1_tools_1_1_ag_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Artisan.Tools.Error_Handling.AgResult&lt; T &gt;</label>
+        <link refid="class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AgErrorInfo</label>
+        <link refid="class_artisan_1_1_tools_1_1_ag_error_info"/>
+      </node>
+      <node id="1">
+        <label>Artisan.Tools.AgException</label>
+        <link refid="class_artisan_1_1_tools_1_1_ag_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/Error Handling/AgException.cs" line="6" column="11" bodyfile="Source/Error Handling/AgException.cs" bodystart="7" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a5a3780037f0f16f8a518633b4df4c66f" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgErrorInfo</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a6df519c5b8d31331ce9e53033c0957b1" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgErrorInfo</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a3ad7f93b26d6ac63cd5026cab191ee70" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgException</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1aacb601d37dd24cb3b115b1d80fae0b69" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgException</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1ae4b65b4ab5c1db5a0148eb944ba8bf92" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgException</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a61af225af54efc67449a303ed5b6a037" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgException</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a704dfd6cadbc9f8c223bc6360fe86852" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>AgException</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a76d43fa36c3e28e36d6e1edaf4017f9f" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>ErrorCode</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a7629c99b15c1dd6dd3e4e82125e23cdf" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>ErrorMsg</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a856c351f2a2c245d154c43f180acaed4" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>IsSuccess</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_error_info_1a91a55762ff27625e3807e39f775f51a9" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>LoadErrorMessage</name></member>
+      <member refid="class_artisan_1_1_tools_1_1_ag_exception_1a3e4ca7aa8a00e6259534a48b52c8140c" prot="public" virt="non-virtual"><scope>Artisan::Tools::AgException</scope><name>SetErrorInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

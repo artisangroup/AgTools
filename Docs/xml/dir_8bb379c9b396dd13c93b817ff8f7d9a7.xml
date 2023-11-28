@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_8bb379c9b396dd13c93b817ff8f7d9a7" kind="dir">
+    <compoundname>Source/Error Handling</compoundname>
+    <innerfile refid="_ag_error_8cs">AgError.cs</innerfile>
+    <innerfile refid="_ag_exception_8cs">AgException.cs</innerfile>
+    <innerfile refid="_ag_result_8cs">AgResult.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Error Handling/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_artisan_1_1_tools_1_1_error___handling" xml:lang="en-US">
+<title>Artisan.Tools.Error_Handling Namespace Reference</title>
+<indexterm><primary>Artisan.Tools.Error_Handling</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_artisan_1_1_tools_1_1_error___handling_1_1_ag_result">AgResult</link></para>
+
+<para>Allows us to return complex information from an API call. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

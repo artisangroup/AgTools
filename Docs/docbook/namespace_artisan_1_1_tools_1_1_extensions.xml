@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_artisan_1_1_tools_1_1_extensions" xml:lang="en-US">
+<title>Artisan.Tools.Extensions Namespace Reference</title>
+<indexterm><primary>Artisan.Tools.Extensions</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">DateTimeExtensions</emphasis></para>
+
+<para>Here are some extensions for processing date-time objects. </para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">IntExtensions</emphasis></para>
+
+<para>General extensions for integers. </para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">LongExtensions</emphasis></para>
+
+<para>General extensions for long integers. </para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">ObjectExtensions</emphasis></para>
+
+<para>Extensions for general objects and classes. These leverage reflection to help access props and other stuff. </para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">StringExtensions</emphasis></para>
+
+<para>Various string extensions. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
