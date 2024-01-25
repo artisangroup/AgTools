@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Artisan.Tools.ErrorHandling;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,13 @@ namespace Artisan.Tools.Error_Handling
             this.Result = (result == null) ? Activator.CreateInstance<T>() : result;
             this.SetErrorInfo(ErrorCode);
         }
-
     }
+
+    /// <summary>
+    /// Helper class for results where a result is not required
+    /// </summary>
+    public class AgResult : AgResult<AgResponse>
+    {
+    }
+
 }

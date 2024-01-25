@@ -11,8 +11,24 @@ namespace Artisan.Tools
         /// Success
         /// </summary>
         public static int SUCCESS = 0;
+
         /// <summary>
-        /// General exception error
+        /// Operation was successful with warnings or conditions
+        /// </summary>
+        public static int SUCCESS_WITH_INFO = 1;
+
+        /// <summary>
+        /// Indicates the operation was cancelled
+        /// </summary>
+        public static int E_CANCEL = 2;
+
+        /// <summary>
+        /// Indicates the operation timed out
+        /// </summary>
+        public static int E_TIMEOUT = 3;
+
+        /// <summary>
+        /// Handles exceptions thrown by the code
         /// </summary>
         public static int E_EXCEPTION = 998;
 
@@ -42,9 +58,22 @@ namespace Artisan.Tools
         /// </summary>
         public string? ErrorMsg { get; set; }
 
+        public Exception? Exception { get; set; }
+
         public AgErrorInfo() => _init(AgError.SUCCESS);
         public AgErrorInfo(int errorCode, string? errorMsg = null) => _init(errorCode, errorMsg);
         public AgErrorInfo(AgErrorInfo ei) => _init(ei.ErrorCode, ei.ErrorMsg);
+        
+        /// <summary>
+        /// Constructor accepting an AG level error code and an OS Exception
+        /// </summary>
+        /// <param name="errorCode"></param>
+        /// <param name="ex"></param>
+        public AgErrorInfo(int errorCode, Exception ex)
+        {
+            _init(errorCode);
+            Exception = ex;
+        }
 
         private void _init(int errorCode, string? errorMsg = null)
         {

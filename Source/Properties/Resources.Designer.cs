@@ -22,7 +22,7 @@ namespace Artisan.Tools.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -61,6 +61,15 @@ namespace Artisan.Tools.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The operation was canceled.
+        /// </summary>
+        internal static string AgError_E_CANCEL {
+            get {
+                return ResourceManager.GetString("AgError.E_CANCEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General Exception.
         /// </summary>
         internal static string AgError_E_EXCEPTION {
@@ -79,11 +88,29 @@ namespace Artisan.Tools.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The operation timed out.
+        /// </summary>
+        internal static string AgError_E_TIMEOUT {
+            get {
+                return ResourceManager.GetString("AgError.E_TIMEOUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Success.
         /// </summary>
         internal static string AgError_SUCCESS {
             get {
                 return ResourceManager.GetString("AgError.SUCCESS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Succes - check result.
+        /// </summary>
+        internal static string AgError_SUCCESS_WITH_INFO {
+            get {
+                return ResourceManager.GetString("AgError.SUCCESS_WITH_INFO", resourceCulture);
             }
         }
         

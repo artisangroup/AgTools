@@ -1,3 +1,4 @@
+using System.Net;
 using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
@@ -101,6 +102,16 @@ public static class StringExtensions
     {
         return (!string.IsNullOrEmpty(x) && ((x == "0") || (x.ToLower() == "false")));
     }
+
+
+    public static string AgToIpAddress(this string ipAddress)
+    {
+        IPAddress? ipout = IPAddress.None;
+        if (!IPAddress.TryParse(ipAddress, out ipout))
+            ipAddress = IPAddress.Any.ToString();
+        return ipAddress;
+    }
+
 
 
 

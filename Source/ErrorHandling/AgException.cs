@@ -11,6 +11,14 @@ namespace Artisan.Tools
         {
             return _err = new AgErrorInfo(aex.ErrorInfo);
         }
+        public AgErrorInfo SetLastError(int errorCode, Exception ex)
+        {
+            return _err = new AgErrorInfo(errorCode,ex);
+        }
+        public AgErrorInfo SetLastError(Exception ex)
+        {
+            return _err = new AgErrorInfo(AgError.E_EXCEPTION, ex);
+        }
 
         /// <summary>
         /// Internal AgError code

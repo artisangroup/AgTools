@@ -32,13 +32,7 @@
 		<PackageIcon>resources\circle.png</PackageIcon>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<UserSecretsId>41ce268b-f347-4be3-80cf-dea8198b2516</UserSecretsId>
-
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<NoWarn>1701;1702;CS8604;1591;414;</NoWarn>
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<NoWarn>1701;1702;CS8604;1591;414;</NoWarn>
+		<NoWarn>1701;1702;CS8604;1591;414;0168;8600;8602;8604;8618;0219;8629;8625;</NoWarn>
 	</PropertyGroup>
 	<ItemGroup>
 		<Content Include="resources\circle.ico" />
